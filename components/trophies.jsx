@@ -6,7 +6,6 @@ export default function Trophies() {
   return (
     <View style={styles.box}>
       <View style={styles.row}>
-        {/* Icon with rotated background */}
         <View style={[styles.iconContainer, { backgroundColor: '#ff6347' }]}>
           <Ionicons name="trophy" size={28} color={"#fff"} style={styles.icon} />
         </View>
